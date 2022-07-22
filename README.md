@@ -24,7 +24,18 @@ Check out [GitHub releases][] for a detailed list of changes.
 
 ## Usage
 
-TODO: Write usage instructions here
+Use `env` as your provider or add it to your list of providers:
+
+``` yml
+config:
+  envs:
+    development:
+      providers: env
+
+HOST:
+```
+
+This will pull `"HOST"` from `ENV` and add it to Unifig.
 
 ## Contributing
 

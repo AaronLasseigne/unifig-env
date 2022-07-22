@@ -1,4 +1,4 @@
-require 'unifig'
+require 'unifig/env'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
