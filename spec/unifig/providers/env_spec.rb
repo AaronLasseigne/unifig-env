@@ -13,12 +13,12 @@ RSpec.describe Unifig::Providers::Env do
     end
 
     it 'returns a hash of only the available vars' do
-      result = described_class.retrieve(%w[FOO BAR BAZ])
+      result = described_class.retrieve(%i[FOO BAR BAZ])
 
       expect(result).to be_an_instance_of(Hash)
       expect(result.keys.size).to be 2
-      expect(result['FOO']).to eql 'foo'
-      expect(result['BAR']).to eql 'bar'
+      expect(result[:FOO]).to eql 'foo'
+      expect(result[:BAR]).to eql 'bar'
     end
   end
 end
