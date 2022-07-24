@@ -28,9 +28,7 @@ Use `env` as your provider or add it to your list of providers:
 
 ``` yml
 config:
-  envs:
-    development:
-      providers: env
+  providers: env
 
 HOST:
 ```
