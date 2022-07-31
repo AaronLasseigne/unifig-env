@@ -10,13 +10,13 @@ Adds a provider to support loading environment variables to [Unifig][].
 Add it to your Gemfile:
 
 ``` rb
-gem 'unifig-env', '~> 0.1.0'
+gem 'unifig-env', '~> 0.2.0'
 ```
 
 Or install it manually:
 
 ``` sh
-$ gem install unifig-env --version '~> 0.1.0'
+$ gem install unifig-env --version '~> 0.2.0'
 ```
 
 This project uses [Semantic Versioning][].

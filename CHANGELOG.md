@@ -1,8 +1,8 @@
-# [0.2.0][] (TBD)
+# [0.2.0][] (2022-07-31)
 
 ## Changed
 
-- Support for Unifig increased to 0.3.0
+- Support for Unifig increased to 0.3.1
 
 # [0.1.0][] (2022-07-24)
 
