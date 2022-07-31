@@ -16,9 +16,10 @@ RSpec.describe Unifig::Providers::Env do
       result = described_class.retrieve(%i[FOO BAR BAZ])
 
       expect(result).to be_an_instance_of(Hash)
-      expect(result.keys.size).to be 2
+      expect(result.keys.size).to be 3
       expect(result[:FOO]).to eql 'foo'
       expect(result[:BAR]).to eql 'bar'
+      expect(result[:BAZ]).to be_nil
     end
   end
 end
