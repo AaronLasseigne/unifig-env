@@ -26,5 +26,5 @@ Gem::Specification.new do |spec|
     Dir.glob(File.join('lib', '**', '*.rb'))
   spec.test_files = Dir.glob(File.join('spec', '**', '*.rb'))
 
-  spec.add_dependency 'unifig', '~> 0.3.1'
+  spec.add_dependency 'unifig', '~> 0.4.0'
 end
