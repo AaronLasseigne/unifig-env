@@ -25,6 +25,8 @@ Metrics/CyclomaticComplexity:
   Max: 8
 Metrics/MethodLength:
   Max: 20
+Naming/FileName:
+  Enabled: false
 Style/FrozenStringLiteralComment:
   Exclude:
     - '**/*.gemspec'

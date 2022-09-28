@@ -24,6 +24,8 @@ Check out [GitHub releases][] for a detailed list of changes.
 
 ## Usage
 
+### Environment
+
 Use `env` as your provider or add it to your list of providers:
 
 ``` yml
@@ -34,6 +36,27 @@ HOST:
 ```
 
 This will pull `"HOST"` from `ENV` and add it to Unifig.
+
+### Environment File
+
+Use `env-file` as your provider or add it to your list of providers:
+
+``` yml
+unifig:
+  providers: env-file
+```
+
+By default, it looks for `.env` in the local directory.
+The file can be specified by passing `file` to the configuration.
+
+``` yml
+unifig:
+  providers:
+    list: env-file
+    config:
+      env-file:
+        file: my.env
+```
 
 ## Contributing
 

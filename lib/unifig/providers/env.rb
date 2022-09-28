@@ -8,7 +8,7 @@ module Unifig
         :env
       end
 
-      def self.retrieve(var_names)
+      def self.retrieve(var_names, _config)
         var_names.to_h do |name|
           [name, ::ENV[name.to_s]]
         end
