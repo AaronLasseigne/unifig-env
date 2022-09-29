@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'unifig'
+
 require_relative 'env/version'
 require_relative 'env/parser'
 require_relative 'providers/env'
