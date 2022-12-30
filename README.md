@@ -3,7 +3,7 @@
 Adds a provider to support loading environment variables to [Unifig][].
 
 [![Version](https://img.shields.io/gem/v/unifig-env.svg?style=flat-square)](https://rubygems.org/gems/unifig-env)
-[![Test](https://img.shields.io/github/workflow/status/AaronLasseigne/unifig-env/Test?label=Test&style=flat-square)](https://github.com/AaronLasseigne/unifig-env/actions?query=workflow%3ATest)
+[![Test](https://img.shields.io/github/actions/workflow/status/AaronLasseigne/unifig-env/test.yml?label=Test&style=flat-square&branch=main)](https://github.com/AaronLasseigne/unifig-env/actions?query=workflow%3ATest)
 
 ## Installation
 
